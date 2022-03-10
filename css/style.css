@@ -17,6 +17,16 @@
     text-align: center;
     color: darkgreen;
 }
+.form-label{
+    color: purple;
+    text-align: start;
+}
+.person{
+    text-align: start;
+}
+.card{
+    border-color: aqua;
+}
 
 
 
