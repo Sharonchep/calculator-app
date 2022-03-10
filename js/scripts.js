@@ -12,11 +12,12 @@
   let date=new Date(input).getDay();
   let submit=["Born on Sunday","Born on Monday","Born on Tuesday","Born on Wednesday","Born Thursday","Born on Friday","Born on Saturday"];
   console.log(date)
-//   document.getElementById("output").textContent = submit[date];
+  document.getElementById("output").textContent = submit[date];
   
-//   if (day<=0 ||day >31){
-//   alert("date should be between 1-31");
-//   } 
+  if (day<=0 ||day >31){
+  alert("date should be between 1-31");
+  } 
+}
 //   else if(month<=0||month >12){
 //     alert("month should not exceed 12");
 //   }
@@ -35,6 +36,7 @@
 //   }
 // }
 // }
+
   
 
 
