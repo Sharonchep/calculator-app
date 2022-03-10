@@ -15,12 +15,13 @@
   document.getElementById("output").textContent = submit[date];
   
   if (day<=0 ||day >31){
-  alert("date should be between 1-31");
+  alert("date should not exceed 1-31");
   } 
+  if (month<=0||month>12){
+    alert("month should not exceed 1-12");
+  }  
 }
-//   else if(month<=0||month >12){
-//     alert("month should not exceed 12");
-//   }
+  
 //    else{
 
 //   let d=submit[date];
