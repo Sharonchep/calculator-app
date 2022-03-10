@@ -1,0 +1,8 @@
+.container-fluid{
+    background: linear-gradient(to right,rgb(236, 202, 222) ,rgb(163, 120, 212));
+    padding: 0px;
+    padding: bottom 3px;
+}
+.learn{
+    display: flex;
+}
