@@ -3,6 +3,13 @@
     padding: 0px;
     padding: bottom 3px;
 }
+.nav{
+    color:white;
+    padding-left:20px;
+    text-align: end;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
 .learn{
     display: flex;
 }
@@ -10,7 +17,7 @@
     color: red;
 }
 #title{
-    color: navy;
+    color: rgb(7, 7, 34);
     text-align: center;
 }
 #item{
