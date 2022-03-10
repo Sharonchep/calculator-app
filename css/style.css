@@ -27,6 +27,17 @@
 .card{
     border-color: aqua;
 }
+#card1{
+    color: navy;
+    background-color:rgb(216, 184, 184);
+}
+#card2{
+    color: black ;
+    background-color: bisque;
+}
+.card-title{
+    color: green;
+}
 
 
 
