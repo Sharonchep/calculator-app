@@ -20,16 +20,16 @@
   if (month<=0||month>12){
     alert("month should not exceed 1-12");
   }  
-}
   
-//    else{
+   else{
+  let d=submit[date];
+  if (gender==="female"){
+    let submit=["Akosua","Adwao","Abenaa","Akua","Yaa","Afua","Ama"];
+    document.getElementById("output1").textContent = submit[date];
+    console.log(female[d]);
 
-//   let d=submit[date];
-//   if (gender==="female"){
-//     let submit=["Akosua","Adwao","Abenaa","Akua","Yaa","Afua","Ama"];
-//     document.getElementById("output1").textContent = submit[date];
-//     console.log(female[d]);
-//   }
+  }
+}
 //   if(gender==="male"){
 //   let submit=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
 //   document.getElementById("output1").textContent = submit[date];
