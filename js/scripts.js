@@ -5,13 +5,13 @@
   console.log(gender)
 
 
-//   let day= document.getElementById("day").value; 
-//   let month= document.getElementById("month").value; 
-//   let year= document.getElementById("year").value;
-//   let input=month+"/"+  day+"/"+year
-//   let date=new Date(input).getDay();
-//   let submit=["Born on Sunday","Born on Monday","Born on Tuesday","Born on Wednesday","Born Thursday","Born on Friday","Born on Saturday"];
-//   console.log(date)
+  let day= document.getElementById("day").value; 
+  let month= document.getElementById("month").value; 
+  let year= document.getElementById("year").value;
+  let input=month+"/"+  day+"/"+year
+  let date=new Date(input).getDay();
+  let submit=["Born on Sunday","Born on Monday","Born on Tuesday","Born on Wednesday","Born Thursday","Born on Friday","Born on Saturday"];
+  console.log(date)
 //   document.getElementById("output").textContent = submit[date];
   
 //   if (day<=0 ||day >31){
